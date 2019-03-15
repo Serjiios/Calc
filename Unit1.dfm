@@ -486,9 +486,6 @@ object Form1: TForm1
     TabOrder = 28
     OnClick = BdrobClick
   end
-  object XPManifest1: TXPManifest
-    Top = 192
-  end
   object Timer1: TTimer
     Enabled = False
     OnTimer = Timer1Timer
@@ -516,10 +513,6 @@ object Form1: TForm1
     end
     object N4: TMenuItem
       Caption = '?'
-      object Help: TMenuItem
-        Caption = #1055#1086#1084#1086#1097#1100
-        OnClick = HelpClick
-      end
       object About: TMenuItem
         Caption = '&'#1054' '#1087#1088#1086#1075#1088#1072#1084#1084#1077
         OnClick = AboutClick

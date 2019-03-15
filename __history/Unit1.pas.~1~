@@ -20,6 +20,7 @@ type
     BPoint: TButton;
     B9: TButton;
     B0: TButton;
+    XPManifest1: TXPManifest;
     Bdelenie: TButton;
     Bumnoj: TButton;
     Bminus: TButton;
@@ -44,6 +45,7 @@ type
     CLAY: TMenuItem;
     N4: TMenuItem;
     About: TMenuItem;
+    Help: TMenuItem;
     procedure BoffClick(Sender: TObject);
     procedure BceClick(Sender: TObject);
     procedure B1Click(Sender: TObject);
