@@ -348,7 +348,6 @@ Wnd:=GetWindow(Wnd,GW_HWNDNEXT);
 end;
 end;
 
-//Пункт меню Помощь
 procedure TForm1.HelpClick(Sender: TObject);
 begin
 Application.HelpJump('Calc.hlp');
@@ -366,4 +365,5 @@ Setlength(A,(B-1));
 Memo1.Text:=A ;
 end;
 
+//Пункт меню Помощь
 end.

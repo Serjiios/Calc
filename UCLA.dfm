@@ -9,6 +9,7 @@ inherited CLA: TCLA
   OldCreateOrder = True
   Position = poDefault
   OnClose = FormClose
+  ExplicitHeight = 418
   PixelsPerInch = 96
   TextHeight = 18
   object Label1: TLabel [0]
@@ -407,12 +408,5 @@ inherited CLA: TCLA
     ParentFont = False
     TabOrder = 36
     OnClick = Bc2Click
-  end
-  inherited MainMenu1: TMainMenu
-    inherited N4: TMenuItem
-      inherited Help: TMenuItem
-        ShortCut = 112
-      end
-    end
   end
 end
