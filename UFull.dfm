@@ -3,13 +3,18 @@ inherited Full: TFull
   Top = 401
   ActiveControl = Memo1
   ClientWidth = 313
+  ExplicitWidth = 319
   PixelsPerInch = 96
   TextHeight = 18
   inherited Bevel1: TBevel
     Width = 313
+    ExplicitLeft = 8
+    ExplicitTop = 215
+    ExplicitWidth = 313
   end
   inherited Memo1: TMemo
     Width = 297
+    ExplicitWidth = 297
   end
   object Bsin: TButton [34]
     Left = 272
@@ -91,7 +96,22 @@ inherited Full: TFull
     TabOrder = 36
     OnClick = BtgClick
   end
-  object Panel4: TPanel [39]
+  inherited Edit13: TEdit
+    TabOrder = 37
+  end
+  inherited Edit14: TEdit
+    TabOrder = 38
+  end
+  inherited Edit15: TEdit
+    TabOrder = 39
+  end
+  inherited Bc1: TButton
+    TabOrder = 40
+  end
+  inherited Bc2: TButton
+    TabOrder = 41
+  end
+  object Panel4: TPanel [44]
     Left = 272
     Top = 224
     Width = 33
@@ -103,21 +123,6 @@ inherited Full: TFull
     Font.Name = 'Bookman Old Style'
     Font.Style = []
     ParentFont = False
-    TabOrder = 37
-  end
-  inherited Edit13: TEdit
-    TabOrder = 38
-  end
-  inherited Edit14: TEdit
-    TabOrder = 39
-  end
-  inherited Edit15: TEdit
-    TabOrder = 40
-  end
-  inherited Bc1: TButton
-    TabOrder = 41
-  end
-  inherited Bc2: TButton
     TabOrder = 42
   end
   inherited MainMenu1: TMainMenu
